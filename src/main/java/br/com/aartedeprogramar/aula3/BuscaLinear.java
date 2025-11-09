@@ -10,5 +10,4 @@ public class BuscaLinear {
 
         return -1;
     }
-
 }
