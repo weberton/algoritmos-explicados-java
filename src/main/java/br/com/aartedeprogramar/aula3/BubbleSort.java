@@ -1,11 +1,6 @@
 package br.com.aartedeprogramar.aula3;
 
 public class BubbleSort {
-    /*
-        [5,2,8,5,8]
-        T=O(Nˆ2)
-        E=O(1)
-     */
     public static void bubbleSort(int[] array) {
         boolean estaOrdenado = false;
         int n = array.length - 1;
