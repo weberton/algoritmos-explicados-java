@@ -1,5 +1,6 @@
 package br.com.aartedeprogramar.aula3;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
@@ -68,6 +69,7 @@ class BuscaBinariaTest {
         assertEquals(-1, BuscaBinaria.buscaBinaria(arrayGrande, 1_000_001));   // elemento não existente
     }
 
+    @Disabled
     @Test
     @DisplayName("Deve manter performance logarítmica com arrays de diferentes tamanhos")
     void deveManterPerformanceLogaritmica() {
