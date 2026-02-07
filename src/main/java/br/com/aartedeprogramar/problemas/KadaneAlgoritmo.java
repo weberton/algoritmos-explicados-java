@@ -2,7 +2,6 @@ package br.com.aartedeprogramar.problemas;
 
 public class KadaneAlgoritmo {
     public static int maiorSomaSubarray(int[] numeros) {
-
         if (numeros == null || numeros.length == 0) {
             throw new IllegalArgumentException("Array nao pode ser nulo ou vazio.");
         }

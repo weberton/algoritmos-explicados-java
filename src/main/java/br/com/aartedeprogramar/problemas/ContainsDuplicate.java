@@ -4,11 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ContainsDuplicate {
-
-    /*
-      T=O(N)
-      E=O(N)
-     */
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> vistos = new HashSet<>();
 
